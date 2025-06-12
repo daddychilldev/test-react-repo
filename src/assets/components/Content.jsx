@@ -54,7 +54,7 @@ const Content = ({ buttonText = "Give Me This Buy 1, Get 1 FREE Deal Before It's
           <p>Perhaps the best thing of all is this holster will fit 99% of all brands, types, and styles of semi autos.</p>
           <p>And our unique design ensures your concealed carry device <b>“Vanishes”</b> against your body, making it virtually invisible to others.</p>
           <p>It’s why we named it the <b><u>VNSH Holster!</u></b></p>
-          <p>How many other holsters can do all that? <b>The answer is ZERO.</b></p>
+          <p>How many other holsters can do all that? <b>The answer is ZERO. Dave</b></p>
         </article>
         <div>
           <img 
