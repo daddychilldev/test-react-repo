@@ -35,5 +35,12 @@
   .navbar-content {
     flex-direction: column;
   }
+  .navbar-text {
+    font-size: 18px;
+  }
+  .navbar-logo {
+    width: 140px;
+    height: auto;
+  }
   
 }
