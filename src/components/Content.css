@@ -115,6 +115,12 @@
   width: 650px;
   margin: 20px;
 }
+.desktop-image{
+  display: block;
+}
+.mobile-image{
+ display: none;
+}
 /* Mobile optimizations */
 @media (max-width: 768px) {
   .content {
@@ -149,5 +155,11 @@
   .holster3{
     width: 100%;
     margin: 20px;
+  }
+  .desktop-image{
+    display: none;
+  }
+  .mobile-image{
+   display: block;
   }
 }

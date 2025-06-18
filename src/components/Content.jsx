@@ -2,15 +2,17 @@ import React from "react";
 import "./Content.css";
 import VidalyticsVideo from "./VidalyticsVideo";
 import YotpoReview from "./YotpoReview";
+import Faqs from "./Faqs";
+import Footer from "./Footer";
 
-const Content = ({ buttonText = "Give Me This Buy 1, Get 1 FREE Deal Before It's Gone!" }) => {
+function Content({ buttonText = "Give Me This Buy 1, Get 1 FREE Deal Before It's Gone!" }) {
   return (
     <>
       <section className="content">
         <header className="header">
           <p className="headertext">
-            <b><em>Insanely Comfy Holster</em></b> Makes Any Semi-Auto (Plus 2 Extra Mags) 
-            <b><em> Disappear In Plain Sight</em></b> Even If You Wear 
+            <b><em>Insanely Comfy Holster</em></b> Makes Any Semi-Auto (Plus 2 Extra Mags)
+            <b><em> Disappear In Plain Sight</em></b> Even If You Wear
             <u>Nothing But Gym Shorts, Sweatpants and T-Shirts!</u>
           </p>
         </header>
@@ -21,11 +23,10 @@ const Content = ({ buttonText = "Give Me This Buy 1, Get 1 FREE Deal Before It's
           <button className="btn">{buttonText}</button>
         </div>
         <div>
-          <img 
-            src="https://cdn.shopify.com/s/files/1/0670/4948/8684/files/BlackHolsterDesktop4.webp?v=1729102312" 
-            alt="heroimage" 
-            className="hero-image" 
-          />
+          <img
+            src="https://cdn.shopify.com/s/files/1/0670/4948/8684/files/BlackHolsterDesktop4.webp?v=1729102312"
+            alt="heroimage"
+            className="hero-image" />
         </div>
         <div className="header pad1">
           <span className="headertext yellow">
@@ -34,16 +35,15 @@ const Content = ({ buttonText = "Give Me This Buy 1, Get 1 FREE Deal Before It's
         </div>
         <article className="bodymsg">
           <p>The VNSH Holster is rapidly becoming one of America's best-selling holsters… <b>and for good reason too!</b></p>
-          <p>It’s GUARANTEED to be <b>the most comfortable holster</b> you’ll ever wear - or you get 100% of your money back! 
-             Try it for 60 days, and if you don’t like it for any reason, let us know and we’ll give you every penny back.
+          <p>It’s GUARANTEED to be <b>the most comfortable holster</b> you’ll ever wear - or you get 100% of your money back!
+            Try it for 60 days, and if you don’t like it for any reason, let us know and we’ll give you every penny back.
           </p>
         </article>
         <div>
-          <img 
-            src="https://cdn.shopify.com/s/files/1/0670/4948/8684/files/guaranteed_bannerDesktop.webp?v=1729109678" 
-            alt="heroimage" 
-            className="hero-image" 
-          />
+          <img
+            src="https://cdn.shopify.com/s/files/1/0670/4948/8684/files/guaranteed_bannerDesktop.webp?v=1729109678"
+            alt="heroimage"
+            className="hero-image" />
         </div>
         <article className="bodymsg">
           <p>The reason for it’s insane comfort? The materials. We combined the rugged <b>1000D Cordura</b> with a stretchy <b>‘yoga pant’</b> fabric that is not only built to last for years, but also feels like silk boxers on your skin.</p>
@@ -57,11 +57,10 @@ const Content = ({ buttonText = "Give Me This Buy 1, Get 1 FREE Deal Before It's
           <p>How many other holsters can do all that? <b>The answer is ZERO.</b></p>
         </article>
         <div>
-          <img 
-            src="https://cdn.shopify.com/s/files/1/0670/4948/8684/files/BlackHolsterDesktop3.webp?v=1729102182" 
-            alt="heroimage" 
-            className="hero-image" 
-          />
+          <img
+            src="https://cdn.shopify.com/s/files/1/0670/4948/8684/files/BlackHolsterDesktop3.webp?v=1729102182"
+            alt="heroimage"
+            className="hero-image" />
         </div>
         <article className="bodymsg">
           <p>Now it’s obvious we’d be saying this. But take a look at what some of our thousands upon thousands of customers say about our holster.</p>
@@ -74,15 +73,14 @@ const Content = ({ buttonText = "Give Me This Buy 1, Get 1 FREE Deal Before It's
         </div>
         <div className="subheader">
           <span className="subheadertext orange">
-          Seriously, This Holster Works With 99.9% of Single Semi-Automatic Pistols On the Planet
+            Seriously, This Holster Works With 99.9% of Single Semi-Automatic Pistols On the Planet
           </span>
         </div>
         <div className="holster3">
-          <img 
-            src="https://cdn.shopify.com/s/files/1/0670/4948/8684/files/BlackHolsterDesktop1.webp?v=1729102182" 
-            alt="heroimage" 
-            className="hero-image" 
-          />
+          <img
+            src="https://cdn.shopify.com/s/files/1/0670/4948/8684/files/BlackHolsterDesktop1.webp?v=1729102182"
+            alt="heroimage"
+            className="hero-image" />
         </div>
         <article className="bodymsg">
           <p>Our holster design means that <b>regardless of what pistol you own</b> it will help you safely and comfortably carry it.</p>
@@ -91,18 +89,17 @@ const Content = ({ buttonText = "Give Me This Buy 1, Get 1 FREE Deal Before It's
           <p>Take a look at the list of brands our holster works with and then grab yours before the price goes up!</p>
         </article>
         <div>
-          <img 
-            src="https://cdn.shopify.com/s/files/1/0670/4948/8684/files/LogoDesktop.webp?v=1729112354" 
-            alt="heroimage" 
-            className="hero-image" 
-          />
+          <img
+            src="https://cdn.shopify.com/s/files/1/0670/4948/8684/files/LogoDesktop.webp?v=1729112354"
+            alt="heroimage"
+            className="hero-image" />
         </div>
         <div className="btndiv pulse">
           <button className="btn">{buttonText}</button>
         </div>
         <div className="subheader">
           <span className="subheadertext orange">
-          Don’t Let An Uncomfortable Holster Be The Reason You’re Unarmed When Bad Guys Attack
+            Don’t Let An Uncomfortable Holster Be The Reason You’re Unarmed When Bad Guys Attack
           </span>
         </div>
         <article className="bodymsg">
@@ -122,26 +119,24 @@ const Content = ({ buttonText = "Give Me This Buy 1, Get 1 FREE Deal Before It's
           <p>Not to mention the retention is rock-solid… <b>but still incredibly easy to draw.</b> Never fear that your gun will fall out, or that a criminal will be able to disarm you.</p>
         </article>
         <div className="holster3">
-          <img 
-            src="https://cdn.shopify.com/s/files/1/0670/4948/8684/files/BlackHolsterDesktop2.webp?v=1729102182" 
-            alt="heroimage" 
-            className="hero-image" 
-          />
+          <img
+            src="https://cdn.shopify.com/s/files/1/0670/4948/8684/files/BlackHolsterDesktop2.webp?v=1729102182"
+            alt="heroimage"
+            className="hero-image" />
         </div>
         <div className="btndiv pulse">
           <button className="btn">{buttonText}</button>
         </div>
         <div className="subheader">
           <span className="subheadertext orange">
-          Crazy Holiday Deal! <br></br><span className="red">Buy 1 Holster, Get 1 FREE!</span>
+            Crazy Holiday Deal! <br></br><span className="red">Buy 1 Holster, Get 1 FREE!</span>
           </span>
         </div>
         <div className="pad1">
-          <img 
-            src="https://cdn.shopify.com/s/files/1/0670/4948/8684/files/BlackHolsterDesktop4.webp?v=1729102312" 
-            alt="heroimage" 
-            className="hero-image" 
-          />
+          <img
+            src="https://cdn.shopify.com/s/files/1/0670/4948/8684/files/BlackHolsterDesktop4.webp?v=1729102312"
+            alt="heroimage"
+            className="hero-image" />
         </div>
         <article className="bodymsg">
           <p>As you’ve seen… people <em><b>love</b></em> the VNSH Holster.</p>
@@ -153,15 +148,14 @@ const Content = ({ buttonText = "Give Me This Buy 1, Get 1 FREE Deal Before It's
         </article>
         <div className="subheader">
           <span className="subheadertext orange">
-          You’re Getting An <span className="red">Iron-Clad,</span><br></br><span className="red">Money-Back</span> Guarantee
+            You’re Getting An <span className="red">Iron-Clad,</span><br></br><span className="red">Money-Back</span> Guarantee
           </span>
         </div>
         <div className="pad1">
-          <img 
-            src="https://cdn.shopify.com/s/files/1/0670/4948/8684/files/guarantee-money-back-200.webp?v=1729100261" 
-            alt="heroimage" 
-            className="hero-image" 
-          />
+          <img
+            src="https://cdn.shopify.com/s/files/1/0670/4948/8684/files/guarantee-money-back-200.webp?v=1729100261"
+            alt="heroimage"
+            className="hero-image" />
         </div>
         <article className="bodymsg">
           <p>Love everything about your order, or <b><em>we’ll refund you every penny.</em></b></p>
@@ -178,7 +172,7 @@ const Content = ({ buttonText = "Give Me This Buy 1, Get 1 FREE Deal Before It's
         </div>
         <div className="subheader">
           <span className="subheadertext orange">
-          Fair Warning… <br></br>Big Deal <span className="red">Before Prices Go Up…</span>
+            Fair Warning… <br></br>Big Deal <span className="red">Before Prices Go Up…</span>
           </span>
         </div>
         <article className="bodymsg">
@@ -195,9 +189,28 @@ const Content = ({ buttonText = "Give Me This Buy 1, Get 1 FREE Deal Before It's
         <div className="btndiv pulse">
           <button className="btn">{buttonText}</button>
         </div>
+        <div className="pad1">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0670/4948/8684/files/TestimoniesDesktop.webp?v=1729117025"
+            alt="heroimage"
+            className="hero-image desktop-image" />
+          <img
+            src="https://cdn.shopify.com/s/files/1/0670/4948/8684/files/TestimoniesMobile.webp?v=1729117026"
+            alt="heroimage-mobile"
+            className="hero-image mobile-image" />
+        </div>
+        <div className="faqs">
+          <Faqs />
+        </div>
+        <div className="btndiv pulse">
+          <button className="btn">{buttonText}</button>
+        </div>
+        <div className="footers">
+          <Footer />
+        </div>
       </section>
     </>
   );
-};
+}
 
 export default Content;
